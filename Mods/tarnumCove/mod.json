@@ -1,0 +1,27 @@
+{ 
+
+   "name" : "Tarnum is back to Cove", 
+   "description" : "This mod adds Tarnum as a playable hero for Cove (Captain). In order to play, Cove town mod must be installed!", 
+
+   "author" : "marif", 
+   "contact" : "http://forum.vcmi.eu/viewtopic.php?t=798", 
+   "version" : "1.0.5", 
+   "modType" : "Heroes", 
+   "depends" : ["hota.cove"], 
+
+   "changelog" : 
+     { 
+         "1.0.0" : [ "Initial release" ], 
+         "1.0.1" : [ "Changed Tarnum's abilities (reduced Navigation to basic, added basic Offence)", "Bug fixes" ], 
+         "1.0.2" : [ "Bug fixes" ], 
+         "1.0.3" : [ "Bug fixes" ], 
+         "1.0.4" : [ "Updated mod file to VCMI version 0.96", "Changed/fixes compatibility to HotA mod (now requires HotA and COVE submod installed to work). Will not work with older versions." ],
+		 "1.0.5" : [ "Graphic fixes", "New specialty format" ],		 
+     }, 
+     
+   "heroes" : 
+    [ 
+     "config/Tarnum/TarnumCaptain.json" 
+    ] 
+
+ }

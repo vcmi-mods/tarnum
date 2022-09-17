@@ -1,0 +1,18 @@
+{ 
+
+   "name" : "Tarnum is back to Forge", 
+   "description" : "This mod adds Tarnum as a playable hero for Forge (Cyborg). In order to play, Forge town mod must be installed!", 
+   "author" : "don-ko, Hobbicus, MDT team, avatar", 
+   "contact" : "https://www.vcmi.acidcave.net/mdt_forge.html", 
+   "version" : "1.0.0", 
+   "modType" : "Heroes",
+   "depends" : ["forge"],
+   "changelog" : 
+   { 
+         "1.0.0" : [ "Initial release" ] 
+   },   
+   "heroes" : 
+   [ 
+     "config/Tarnum/TarnumWarmonger.json" 
+   ] 
+ }

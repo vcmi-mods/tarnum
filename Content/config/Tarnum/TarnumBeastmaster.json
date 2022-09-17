@@ -1,0 +1,63 @@
+{
+  "tarnumBeastmaster" :
+  {
+    "class" : "beastmaster",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Basilisks and Greater Basilisks}\r\n\r\nIncreases the Attack and Defense skills of any Basilisks and Greater Basilisks for each level attained after 4th level. Additionally, Basilisks and Greater Basilisks get a permanent +1 Speed bonus.",
+        "tooltip" : "Creature bonus: Basilisk",
+        "name" : "Basilisks"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/Beastmaster/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/Beastmaster/spec-large.bmp",
+      "large" : "Tarnum/Beastmaster/portrait-large.bmp",
+      "small" : "Tarnum/Beastmaster/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gnoll",
+        "max" : 20,
+        "min" : 10
+      },
+      {
+        "creature" : "basilisk",
+        "max" : 7,
+        "min" : 4
+      },
+      {
+        "creature" : "serpentFly",
+        "max" : 3,
+        "min" : 1
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "armorer"
+      },
+      {
+        "level" : "basic",
+        "skill" : "resistance"
+      }
+    ],
+
+	"specialty" : {
+		"creature" : "basilisk"
+	}
+  }
+}

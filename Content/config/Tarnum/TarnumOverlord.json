@@ -1,0 +1,76 @@
+{
+  "tarnumOverlord" :
+  {
+    "class" : "overlord",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Dragons}\r\n\r\nAll Dragons gain +5 Attack and +5 Defense",
+        "tooltip" : "Creature bonus: Dragons",
+        "name" : "Dragons"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/Overlord/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/Overlord/spec-large.bmp",
+      "large" : "Tarnum/Overlord/portrait-large.bmp",
+      "small" : "Tarnum/Overlord/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "troglodyte",
+        "max" : 40,
+        "min" : 30
+      },
+      {
+        "creature" : "harpy",
+        "max" : 6,
+        "min" : 4
+      },
+      {
+        "creature" : "beholder",
+        "max" : 4,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "tactics"
+      },
+      {
+        "level" : "basic",
+        "skill" : "estates"
+      }
+    ],
+
+	"specialty" : {
+		"base" : {
+			"limiters" : [
+				{
+					"parameters" : [ "DRAGON_NATURE" ],
+					"type" : "HAS_ANOTHER_BONUS_LIMITER"
+				}
+			],
+			"type" : "PRIMARY_SKILL",
+			"val" : 5
+		},
+		"bonuses" : {
+			"attack" : { "subtype" : "primSkill.attack" },
+			"defence" : { "subtype" : "primSkill.defence" }
+		}
+	}
+   }
+}

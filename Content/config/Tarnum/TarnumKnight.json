@@ -1,0 +1,88 @@
+{
+  "tarnumKnight" :
+  {
+    "class" : "knight",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Ballista}\r\n\r\nBonus to Balista for every experience level starting from fifth. Additionally Tarnum's Ballista ignores enemy defence by 50%",
+        "tooltip" : "Creature bonus: Ballista",
+        "name" : "Ballista"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/Knight/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/Knight/spec-large.bmp",
+      "large" : "Tarnum/Knight/portrait-large.bmp",
+      "small" : "Tarnum/Knight/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "pikeman",
+        "max" : 20,
+        "min" : 10
+      },
+      {
+        "creature" : "griffin",
+        "max" : 3,
+        "min" : 2
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "leadership"
+      },
+      {
+        "level" : "basic",
+        "skill" : "artillery"
+      }
+    ],
+
+	"specialty" : {
+		"base" : { "limiters" : { "type" : "CREATURE_TYPE_LIMITER" } },
+		"bonuses" : {
+			"attack" : {
+				"limiters" : { "parameters" : [ "ballista", false ] },
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 10, 5 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence" : {
+				"limiters" : { "parameters" : [ "ballista", false ] },
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 10, 5 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"speed" : {
+				"limiters" : { "parameters" : [ "ballista", false ] },
+				"type" : "STACKS_SPEED",
+				"val" : 1
+			},
+			"defenceReduction" : {
+            "type": "ENEMY_DEFENCE_REDUCTION",
+            "val": 50,			
+			"limiters" : { "parameters" : [ "ballista", false ] },
+			}
+		}
+	 }    
+  }
+}

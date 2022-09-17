@@ -1,0 +1,81 @@
+{
+  "tarnumCaptain" :
+  {
+    "class" : "captain",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Sea Serpents and Haspids}\r\n\r\nSea Serpents and Haspids receive a permanent bonus +2 Attack, +4 Defense and +1 Speed",
+        "tooltip" : "Creature bonus: Sea Serpents",
+        "name" : "Sea Serpents"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/TarnumCaptain/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/TarnumCaptain/spec-large.bmp",
+      "large" : "Tarnum/TarnumCaptain/portrait-large.bmp",
+      "small" : "Tarnum/TarnumCaptain/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "nymph",
+        "max" : 30,
+        "min" : 10
+      },
+      {
+        "creature" : "pirate",
+        "max" : 8,
+        "min" : 4
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "offence"
+      },
+      {
+        "level" : "basic",
+        "skill" : "navigation"
+      }
+    ],
+	
+	"specialty" : {
+		"base" : {
+			"limiters" : [
+				{
+					"parameters" : [ "seaserpent", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+			]
+		},
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4
+			},
+			"defence" : {
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1
+			}
+		}
+	}
+  }
+}

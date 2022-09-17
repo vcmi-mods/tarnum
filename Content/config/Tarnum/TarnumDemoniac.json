@@ -1,0 +1,81 @@
+{
+  "tarnumDemoniac" :
+  {
+    "class" : "demoniac",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Devils and Arch Devils}\r\n\r\nDevils and Arch Devils receive a permanent bonus +4 Attack, +2 Defense and +1 Speed",
+        "tooltip" : "Creature bonus: Devils",
+        "name" : "Devils"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/Demoniac/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/Demoniac/spec-large.bmp",
+      "large" : "Tarnum/Demoniac/portrait-large.bmp",
+      "small" : "Tarnum/Demoniac/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "imp",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "hellHound",
+        "max" : 4,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "leadership"
+      },
+      {
+        "level" : "basic",
+        "skill" : "tactics"
+      }
+    ],
+    
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "devil", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 4
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

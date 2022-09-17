@@ -1,0 +1,23 @@
+{ 
+
+   "name" : "Tarnum is back to Courtyard", 
+   "description" : "This mod adds Tarnum as a playable hero for Courtyard (Philospher). In order to play, Courtyard town mod must be enabled!", 
+   "author" : "avatar, Hobbicus, Trith", 
+   "contact" : "http://heroescommunity.com/viewthread.php3?TID=46393", 
+   "version" : "1.0.0", 
+   "modType" : "Heroes", 
+   "depends" : ["courtyard"], 
+
+   "changelog" : 
+   { 
+	"1.0.0" : [ "Initial release" ]	 
+   }, 
+   "heroes" : 
+   [ 
+     "config/Tarnum/tarnumPhilosopher" 
+   ],
+   "spells" : 
+   [ 
+     "config/Tarnum/summonApparitions" 
+   ]   
+ }
