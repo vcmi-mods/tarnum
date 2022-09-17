@@ -1,2 +1,0 @@
-# tarnum
- Playable Tarnum in all his previous incarnations (Knight, Ranger, Barbarian, Wizard, Beastmaster and Overlord) as well as 3 new ones (Death Knight, Demoniac and Planeswalker). Most of the graphics are exported from Heroes Chronicles, Heroes of Might and Magic 3 Complete or Horn of the Abyss. I'm the author of Planeswalker and Demoniac portraits and some speciality graphics, Hobbit is the author of Death Knight Tarnum (I received his permission to use this portrait). Mod gives each of original Heroes factions one Tarnum. And even more!
