@@ -1,27 +1,29 @@
 { 
-   "name" : "Tarnum is back (Original Factions)", 
-   "description" : "Playable Tarnum in all his previous incarnations (Knight, Ranger, Barbarian, Wizard, Beastmaster and Overlord) as well as 3 new ones (Death Knight, Demoniac and Planeswalker). Most of the graphics are exported from Heroes Chronicles, Heroes of Might and Magic 3 Complete or Horn of the Abyss. I'm the author of Planeswalker and Demoniac portraits and some speciality graphics, Hobbit is the author of Death Knight Tarnum (I received his permission to use this portrait). Mod gives each of original Heroes factions one Tarnum :)", 
+   "name" : "Tarnum is back!", 
+   "description" : "Playable Tarnum in all his previous incarnations (Knight, Ranger, Barbarian, Wizard, Beastmaster and Overlord) as well as 3 new ones (Death Knight, Demoniac and Planeswalker). Most of the graphics are exported from Heroes Chronicles, Heroes of Might and Magic 3 Complete or Horn of the Abyss. Also there are some new Tarnum incarantions for new mod towns. Check them yourself", 
 
-   "author" : "marif, Hobbit (Death Knight), HotA Team (Overlord speciality icons)", 
+   "author" : "marif, Hobbit, HotA Team", 
    "contact" : "http://forum.vcmi.eu/viewtopic.php?t=798", 
-   "version" : "1.1.0", 
+   "version" : "1.1.1", 
    "modType" : "Heroes",    
-
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
     "changelog" : 
      { 
-         "1.0.0" : [ "Initial release" ], 
-         "1.0.1" : [ "Bug fixes" ], 
-         "1.0.2" : [ "Changed Overlord Tarnum speciality icons to the ones used in HotA", "Changes in abilities of Death Knight Tarnum (added basic Offence, reduced Necromancy to basic)", "Fixed quantity of Beastmaster Tarnum's Serpent Flies" ], 
-         "1.0.3" : [ "Bug fixes" ], 
-         "1.0.4" : [ "Updated mod file to VCMI version 0.96" ],
-	 "1.0.5" : [ "Graphic fixes", "New specialty format" ],
-	 "1.1.0" : [ "Few new Tarnums were added :)" ]		 
+        "1.0.0" : [ "Initial release" ], 
+        "1.0.1" : [ "Bug fixes" ], 
+        "1.0.2" : [ "Changed Overlord Tarnum speciality icons to the ones used in HotA", "Changes in abilities of Death Knight Tarnum (added basic Offence, reduced Necromancy to basic)", "Fixed quantity of Beastmaster Tarnum's Serpent Flies" ], 
+		"1.0.3" : [ "Bug fixes" ], 
+        "1.0.4" : [ "Updated mod file to VCMI version 0.96" ],
+		"1.0.5" : [ "Graphic fixes", "New specialty format" ],
+		"1.1.0" : [ "Few new Tarnums were added :)" ],
+		"1.1.1" : [ "Update to vcmi-1.2" ]		
      }, 
    
- "heroes" : 
-
+	"heroes" : 
      [ 
-
      "config/Tarnum/TarnumKnight.json", 
      "config/Tarnum/TarnumRanger.json", 
      "config/Tarnum/TarnumWizard.json", 
@@ -31,6 +33,5 @@
      "config/Tarnum/TarnumDeathKnight.json",        
      "config/Tarnum/TarnumDemoniac.json", 
      "config/Tarnum/TarnumPlaneswalker.json" 
-     ] 
-
+     ]
  }

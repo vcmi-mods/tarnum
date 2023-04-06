@@ -16,7 +16,7 @@
          "1.0.2" : [ "Bug fixes" ], 
          "1.0.3" : [ "Bug fixes" ], 
          "1.0.4" : [ "Updated mod file to VCMI version 0.96", "Changed/fixes compatibility to HotA mod (now requires HotA and COVE submod installed to work). Will not work with older versions." ],
-		 "1.0.5" : [ "Graphic fixes", "New specialty format" ],		 
+		 "1.0.5" : [ "Graphic fixes", "New specialty format" ]
      }, 
      
    "heroes" : 

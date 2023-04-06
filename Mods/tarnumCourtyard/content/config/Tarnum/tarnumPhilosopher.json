@@ -32,7 +32,7 @@
     [
 			{ "creature" : "cupid", "max" : 18, "min" : 10 },
 			{ "creature" : "cameraObscuraCreature", "max" : 1, "min" : 1 },
-			{ "creature" : "homunculus", "max" : 12, "min" : 6 },
+			{ "creature" : "homunculus", "max" : 12, "min" : 6 }
     ],
 
     "skills" :

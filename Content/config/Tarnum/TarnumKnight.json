@@ -80,7 +80,7 @@
 			"defenceReduction" : {
             "type": "ENEMY_DEFENCE_REDUCTION",
             "val": 50,			
-			"limiters" : { "parameters" : [ "ballista", false ] },
+			"limiters" : { "parameters" : [ "ballista", false ] }
 			}
 		}
 	 }    
