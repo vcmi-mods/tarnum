@@ -1,11 +1,11 @@
 { 
    "name" : "Tarnum the Drifter", 
-   "description" : "This mod adds Tarnum (and his son) as a playable, but neutral heroes called Drifter. You can get them sometimes in tavern or priosns", 
+   "description" : "This mod adds Tarnum (and his son) as a playable, but neutral heroes called Drifter. You can get them sometimes in tavern or prisons", 
    "author" : "avatar, Hobbicus, 3DO", 
    "contact" : "http://www.vault.acidcave.net/download.php?id=553", 
    "version" : "1.0.0", 
    "modType" : "Heroes", 
-   "depends" : ["neutralheroes"],
+   "depends" : ["neutral-heroes"],
    "changelog" : 
    { 
          "1.0.0" : [ "Initial release" ]	 
