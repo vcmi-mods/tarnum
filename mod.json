@@ -21,7 +21,14 @@
 		"1.1.0" : [ "Few new Tarnums were added :)" ],
 		"1.1.1" : [ "Update to vcmi-1.2" ]	,
 		"1.1.2" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ]		
-     }, 
+     },
+	"german" : {
+		"name" : "Tarnum ist zurück!",
+		"description" : "Spielbarer Tarnum in all seinen bisherigen Inkarnationen (Ritter, Waldläufer, Barbar, Zauberer, Beastmaster und Overlord) sowie 3 neuen (Todesritter, Dämoniker und Gestaltwandler). Die meisten Grafiken wurden aus Heroes Chronicles, Heroes of Might and Magic 3 Complete oder Horn of the Abyss exportiert. Außerdem gibt es einige neue Tarnum-Inkarantionen für neue Mod-Städte. Überprüfen Sie sie selbst", 
+		"translations" : [
+			"translation/tarnum/german.json"
+		]
+	},
 	"chinese" : {
 		"name" : "Tarnum 回来了！",
 		"translations" : [
