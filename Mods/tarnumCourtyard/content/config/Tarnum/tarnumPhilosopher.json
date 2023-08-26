@@ -50,7 +50,7 @@
 	"specialty" : {
 		"bonuses" : {
 			"attack" : {
-				"subtype" : "primSkill.attack",
+				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 4,
 				"limiters" : [
@@ -60,7 +60,7 @@
 				}]
 			},
 			"defence" : {
-				"subtype" : "primSkill.defence",
+				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"limiters" : [
