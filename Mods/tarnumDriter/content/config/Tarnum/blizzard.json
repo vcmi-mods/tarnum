@@ -71,7 +71,7 @@
 					},
 					"primarySkillA" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"valueType" : "PERCENT_TO_BASE",
 						"val" : -25,
 						"duration" : "N_TURNS",
@@ -79,7 +79,7 @@
 					},
 					"primarySkillD" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"valueType" : "PERCENT_TO_BASE",
 						"val" : -25,
 						"duration" : "N_TURNS",
