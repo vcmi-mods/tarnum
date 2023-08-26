@@ -68,8 +68,8 @@
 			"val" : 5
 		},
 		"bonuses" : {
-			"attack" : { "subtype" : "primSkill.attack" },
-			"defence" : { "subtype" : "primSkill.defence" }
+			"attack" : { "subtype" : "primarySkill.attack" },
+			"defence" : { "subtype" : "primarySkill.defence" }
 		}
 	}
    }
