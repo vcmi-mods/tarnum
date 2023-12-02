@@ -4,11 +4,11 @@
 
    "author" : "marif, Hobbit, HotA Team", 
    "contact" : "http://forum.vcmi.eu/viewtopic.php?t=798", 
-   "version" : "1.1.2", 
+   "version" : "1.1.3", 
    "modType" : "Heroes",    
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.4.0"
 	},
     "changelog" : 
      { 
@@ -20,7 +20,8 @@
 		"1.0.5" : [ "Graphic fixes", "New specialty format" ],
 		"1.1.0" : [ "Few new Tarnums were added :)" ],
 		"1.1.1" : [ "Update to vcmi-1.2" ]	,
-		"1.1.2" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ]		
+		"1.1.2" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+		"1.1.3" : [ "Update to vcmi-1.4" ]	
      },
 	"german" : {
 		"name" : "Tarnum ist zurück!",
@@ -31,6 +32,7 @@
 	},
 	"chinese" : {
 		"name" : "Tarnum 回来了！",
+		"description" : "Tarnum 回来了！",
 		"translations" : [
 			"translation/tarnum/chinese.json"
 		]

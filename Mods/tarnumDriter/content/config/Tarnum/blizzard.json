@@ -11,7 +11,7 @@
 		},
 		"targetType": "NO_TARGET",
 		"level": 3,
-		"power": 10, //i think power is irrevelant in this case
+		"power": 10,
 		"defaultGainChance": 0, 
 		"gainChance" :
 		{	
@@ -46,32 +46,24 @@
 		},
 		"levels" : {
 			"base":{
-				"power": 10, //irrevelant?
+				"power": 10,
 				"aiValue": 20,
-				"range" : "X", //like armageddon, death ripple, destroy undead
+				"range" : "X",
 				"targetModifier":{"smart":true},
 				"cost": 0, 
 				"description": "{Whiteout}\r\n\r\nFor three turns all enemy units have -25% to Attack, Defence, Speed and Damage.",
 				"effects" : {
-					"damageMax" : {
+					"damageBoth" : {
 							"type" : "CREATURE_DAMAGE",
 							"val" : -25,
-							"subtype" : 2,
-							"valueType" : "PERCENT_TO_ALL",
-							"duration" : "N_TURNS",
-							"turns" : 4
-					},
-					"damageMin" : {
-							"type" : "CREATURE_DAMAGE", //zmniejszenie min nie dziala
-							"val" : -25,
-							"subtype" : 1,
+							"subtype" : "creatureDamageBoth",
 							"valueType" : "PERCENT_TO_ALL",
 							"duration" : "N_TURNS",
 							"turns" : 4
 					},
 					"primarySkillA" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"valueType" : "PERCENT_TO_BASE",
 						"val" : -25,
 						"duration" : "N_TURNS",
@@ -79,7 +71,7 @@
 					},
 					"primarySkillD" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"valueType" : "PERCENT_TO_BASE",
 						"val" : -25,
 						"duration" : "N_TURNS",
