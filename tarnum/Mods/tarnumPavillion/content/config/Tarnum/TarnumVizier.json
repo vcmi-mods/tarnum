@@ -1,0 +1,110 @@
+{
+  "tarnumVizier" :
+  {
+    "class" : "vizier",
+    "female" : false,
+    "special" : false,
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Camel Riders and Dessert Warriors}\r\n\r\nIncreases the speed of any Camel Riders or Desert Warriors by 1 and their Attack and Defense skills by 5% for every 3 levels. Additionally Camels in Tarnum army can disguise enemy forces.",
+        "tooltip" : "Creature bonus: Camels",
+        "name" : "Camel Riders"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/TarnumVizier/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/TarnumVizier/spec-large.bmp",
+      "large" : "Tarnum/TarnumVizier/portrait-large.bmp",
+      "small" : "Tarnum/TarnumVizier/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "whipper",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "camelRider",
+        "max" : 6,
+        "min" : 3
+      },
+      {
+        "creature" : "camelRider",
+        "max" : 6,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "firstAid"
+      },
+      {
+        "level" : "basic",
+        "skill" : "ballistics"
+      }
+    ],
+	"specialty" : {
+		"bonuses" : {
+			"attack" : {
+				"limiters" : [
+					{
+						"parameters" : [ "camelRider", false ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "attack",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 4 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"defence" : {
+				"limiters" : [
+					{
+						"parameters" : [ "camelRider", false ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "defence",
+				"type" : "PRIMARY_SKILL",
+				"updater" : {
+					"parameters" : [ 2 ],
+					"type" : "GROWS_WITH_LEVEL"
+				}
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"limiters" : [
+					{
+						"parameters" : [ "camelRider", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"disguised" : {
+				"type" : "DISGUISED",
+				"val" : 3,
+				"limiters" : [
+					{
+						"parameters" : [ "camelRider", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	}
+  }
+}

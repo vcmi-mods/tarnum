@@ -1,0 +1,72 @@
+{
+  "tarnumWarmonger" :
+  {
+    "class" : "cyborg",
+    "female" : false,
+    "special" : false,
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Aliens}\r\n\r\nAll Aliens in Tarnum's army are enchanced with pernament Force Field.",
+        "tooltip" : "Creature bonus: Aliens",
+        "name" : "Aliens"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/TarnumWarmonger/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/TarnumWarmonger/spec-large.bmp",
+      "large" : "Tarnum/TarnumWarmonger/portrait-large.bmp",
+      "small" : "Tarnum/TarnumWarmonger/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "alien",
+        "max" : 4,
+        "min" : 3
+      },
+      {
+        "creature" : "alien",
+        "max" : 4,
+        "min" : 3
+      },
+      {
+        "creature" : "alien",
+        "max" : 4,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "armorer"
+      },
+      {
+        "level" : "basic",
+        "skill" : "ballistics"
+      }
+    ],
+		"specialty" : {
+			"bonuses" : {
+				"forceField" : {
+					"type" : "ENCHANTED",
+					"subtype" : "spell.forceField",
+					"val" : 2,
+					"limiters" : [
+					{
+						"parameters" : [ "alien", false ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}]
+				}
+			}
+		}
+	}
+}

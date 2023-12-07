@@ -1,0 +1,18 @@
+{ 
+
+   "name" : "Tarnum is back to Pavillion", 
+   "description" : "This mod adds Tarnum as a playable hero for Pavilion (Vizier). In order to play, Pavilion town mod must be installed!", 
+   "author" : "avatar, Andruids", 
+   "contact" : "", 
+   "version" : "1.0.0", 
+   "modType" : "Heroes",
+   "depends" : ["new pavilion"],
+   "changelog" : 
+   { 
+         "1.0.0" : [ "Initial release" ] 
+   },   
+   "heroes" : 
+   [ 
+     "config/Tarnum/TarnumVizier.json" 
+   ] 
+ }

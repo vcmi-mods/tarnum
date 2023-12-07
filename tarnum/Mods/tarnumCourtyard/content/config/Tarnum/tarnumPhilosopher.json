@@ -1,0 +1,89 @@
+{
+  "tarnumPhilosopher" :
+  {
+    "class" : "philosopher",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Jabberwocks and Monstrous Jabberwocks}\r\n\r\nJabberwocks and Monstrous Jabberwocks receive a permanent bonus +4 Attack, +2 Defense and +1 Speed",
+        "tooltip" : "Creature bonus: Jabberwocks",
+        "name" : "Jabberwocks"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/tarnumPhilosopher/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/tarnumPhilosopher/spec-large.bmp",
+      "large" : "Tarnum/tarnumPhilosopher/portrait-large.bmp",
+      "small" : "Tarnum/tarnumPhilosopher/portrait-small.bmp"
+    },
+	"spellbook" :
+	[
+		"reconstruction"
+	],
+    "army" :
+    [
+			{ "creature" : "cupid", "max" : 18, "min" : 10 },
+			{ "creature" : "cameraObscuraCreature", "max" : 1, "min" : 1 },
+			{ "creature" : "homunculus", "max" : 12, "min" : 6 }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+      {
+        "level" : "basic",
+        "skill" : "fireMagic"
+      }
+    ],
+	
+	"specialty" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"limiters" : [
+				{
+					"parameters" : [ "jabberwock", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}]
+			},
+			"defence" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"limiters" : [
+				{
+					"parameters" : [ "jabberwock", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}]
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"limiters" : [
+				{
+					"parameters" : [ "jabberwock", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}]
+			},
+			"summoner" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.summonApparitions",
+				"val" : 3
+			}
+		}
+	}
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "tarnumWizard" :
+  {
+    "class" : "wizard",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "{Enchanters}\r\n\r\nCan upgrade Monks or Zealots and Magi or Arch Magi to Enchanters.",
+        "tooltip" : "Hero bonus: upgrade.",
+        "name" : "Enchanters"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/Wizard/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/Wizard/spec-large.bmp",
+      "large" : "Tarnum/Wizard/portrait-large.bmp",
+      "small" : "Tarnum/Wizard/portrait-small.bmp"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "enchanter",
+        "max" : 6,
+        "min" : 6
+      },
+      {
+        "creature" : "enchanter",
+        "max" : 3,
+        "min" : 3
+      },
+      {
+        "creature" : "enchanter",
+        "max" : 1,
+        "min" : 1
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "advanced",
+        "skill" : "wisdom"
+      }
+    ],
+    
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.enchanter",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"archMage2enchanter" : { "subtype" : "creature.archMage" },
+				"mage2enchanter" : { "subtype" : "creature.mage" },
+				"monk2enchanter" : { "subtype" : "creature.monk" },
+				"zealot2enchanter" : { "subtype" : "creature.zealot" }
+			}
+		}
+	}
+}
