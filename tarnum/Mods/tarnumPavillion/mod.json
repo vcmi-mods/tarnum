@@ -6,7 +6,7 @@
    "contact" : "", 
    "version" : "1.0.0", 
    "modType" : "Heroes",
-   "depends" : ["new pavilion"],
+   "depends" : ["new-pavilion"],
    "changelog" : 
    { 
          "1.0.0" : [ "Initial release" ] 
