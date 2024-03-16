@@ -34,8 +34,8 @@
 		]
 	},
 	"chinese" : {
-		"name" : "Tarnum 回来了！",
-		"description" : "Tarnum 回来了！",
+		"name" : "塔南的归还",
+		"description" : "包含了塔南之前的所有化身（骑士，巡逻兵，术士，野蛮人，驯兽师，妖术师）以及三个新化身（死亡骑士，魔鬼，元素人）。大部分素材来自《英雄无敌历代记》，《魔法门之英雄无敌III：完整版》，《深渊号角》。此外，还有一些针对新种族的新塔南化身，需要自行查找。",
 		"translations" : [
 			"translation/tarnum/chinese.json"
 		]
