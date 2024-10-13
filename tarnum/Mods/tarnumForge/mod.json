@@ -5,7 +5,7 @@
    "author" : "don-ko, Hobbicus, MDT team, avatar", 
    "contact" : "https://www.vcmi.acidcave.net/mdt_forge.html", 
    "version" : "1.0.0", 
-   "modType" : "Heroes",
+   "modType" : "Compatibility",
    "depends" : ["forge"],
    "changelog" : 
    { 

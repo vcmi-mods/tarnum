@@ -6,7 +6,7 @@
    "author" : "marif", 
    "contact" : "http://forum.vcmi.eu/viewtopic.php?t=798", 
    "version" : "1.0.5", 
-   "modType" : "Heroes", 
+   "modType" : "Compatibility", 
    "depends" : ["hota.cove"], 
 
    "changelog" : 

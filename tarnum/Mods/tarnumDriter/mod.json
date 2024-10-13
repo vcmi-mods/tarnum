@@ -4,7 +4,7 @@
    "author" : "avatar, Hobbicus, 3DO", 
    "contact" : "http://www.vault.acidcave.net/download.php?id=553", 
    "version" : "1.0.0", 
-   "modType" : "Heroes", 
+   "modType" : "Compatibility", 
    "depends" : ["neutral-heroes"],
    "changelog" : 
    { 
