@@ -15,17 +15,17 @@
         "1.0.0" : [ "Initial release" ], 
         "1.0.1" : [ "Bug fixes" ], 
         "1.0.2" : [ "Changed Overlord Tarnum speciality icons to the ones used in HotA", "Changes in abilities of Death Knight Tarnum (added basic Offence, reduced Necromancy to basic)", "Fixed quantity of Beastmaster Tarnum's Serpent Flies" ], 
-		"1.0.3" : [ "Bug fixes" ], 
+        "1.0.3" : [ "Bug fixes" ], 
         "1.0.4" : [ "Updated mod file to VCMI version 0.96" ],
-		"1.0.5" : [ "Graphic fixes", "New specialty format" ],
-		"1.1.0" : [ "Few new Tarnums were added :)" ],
-		"1.1.1" : [ "Update to vcmi-1.2" ]	,
-		"1.1.2" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.1.3" : [ "Update to vcmi-1.4" ],
-		"1.1.4" : [ "New Tarnum! Now he's Vizier in Pavilion town." ],
-		"1.1.5" : [ "Fixed error in dependency mod list." ],
-		"1.1.6" : [ "Updated chinese translation." ],
-		"1.1.7" : [ "Better submods compatibility system." ]			
+        "1.0.5" : [ "Graphic fixes", "New specialty format" ],
+        "1.1.0" : [ "Few new Tarnums were added :)" ],
+        "1.1.1" : [ "Update to vcmi-1.2" ]	,
+        "1.1.2" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+        "1.1.3" : [ "Update to vcmi-1.4" ],
+        "1.1.4" : [ "New Tarnum! Now he's Vizier in Pavilion town." ],
+        "1.1.5" : [ "Fixed error in dependency mod list." ],
+        "1.1.6" : [ "Updated chinese translation." ],
+        "1.1.7" : [ "Czech translation by George King" ]	
      },
 	"german" : {
 		"name" : "Tarnum ist zurück!",
@@ -41,7 +41,13 @@
 			"translation/tarnum/chinese.json"
 		]
 	},
-   
+	"czech" : {
+		"name": "Tarnum se vrátil!",
+		"description": "Hratelný Tarnum ve všech jeho předchozích inkarnacích (rytíř, strážce, barbar, kouzelník, mistr bestií a vládce) a také 3 nové (smrtelný rytíř, démonolog a obyvatel rovin). Většina grafiky je exportována z Heroes Chronicles, Heroes of Might and Magic 3 Complete nebo Horn of the Abyss. Také jsou zde některé nové inkarnace Tarnuma pro nové městské módy. Zkontrolujte je sami.",
+		"translations" : [
+			"translation/tarnum/czech.json"
+		]
+	},   
 	"heroes" : 
      [ 
      "config/Tarnum/TarnumKnight.json", 
