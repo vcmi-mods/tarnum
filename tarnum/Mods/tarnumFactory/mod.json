@@ -1,0 +1,22 @@
+{ 
+
+   "name" : "Tarnum is back to Factory", 
+   "description" : "This mod adds Tarnum as a playable hero for Factory (Mercenary). In order to play, Factory town mod must be installed!", 
+   "author" : "Andruids, avatar", 
+   "contact" : "https://www.vcmi.acidcave.net/mdt_forge.html", 
+   "version" : "1.0.0", 
+   "modType" : "Compatibility",
+   "depends" : ["hota.factory"],
+  	"compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+   "changelog" : 
+   { 
+         "1.0.0" : [ "Initial release" ] 
+   },   
+   "heroes" : 
+   [ 
+     "config/Tarnum/TarnumMercenary.json" 
+   ] 
+ }

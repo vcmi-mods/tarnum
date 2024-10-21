@@ -1,0 +1,96 @@
+{
+  "tarnumMercenary" :
+  {
+    "class" : "factoryAClass",
+    "female" : false,
+    "special" : false,
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "All Dreadnoughts in Tarnum's army have also Acid Breath and Couatls can cast one additional Meditation spell.",
+        "tooltip" : "Creature bonus: Dreadnoughts and Couatls",
+        "name" : "Dreadnoughts/Couatls"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/TarnumMercenary/spec-small.png",
+      "specialtyLarge" : "Tarnum/TarnumMercenary/spec-large.png",
+      "large" : "Tarnum/TarnumMercenary/portrait-large.png",
+      "small" : "Tarnum/TarnumMercenary/portrait-small.png"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "halfling",
+        "max" : 25,
+        "min" : 15
+      },
+      {
+        "creature" : "hotaMechanic",
+        "max" : 8,
+        "min" : 6
+      },
+      {
+        "creature" : "armadillo",
+        "max" : 6,
+        "min" : 4
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "armorer"
+      },
+      {
+        "level" : "basic",
+        "skill" : "leadership"
+      }
+    ],
+		"specialty" : {
+			"bonuses" : {
+				"couatlCast" : {
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 1,
+					"type" : "CASTS",
+					"limiters" : [
+						{
+							"parameters" : [ "hotaCouatl", true ],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"acidDread" : {
+					"type" : "ACID_BREATH",
+					"val" : 15,
+					"addInfo" : 20,
+					"limiters" : [
+						{
+							"parameters" : [ "hotaDread", true ],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"reduceDefence" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.acidBreath",
+					"val" : 100,
+					"limiters" : [
+						{
+							"parameters" : [ "hotaDread", true ],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				}				
+			}
+		}
+	}
+}

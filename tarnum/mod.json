@@ -4,11 +4,11 @@
 
    "author" : "marif, Hobbit, HotA Team", 
    "contact" : "http://forum.vcmi.eu/viewtopic.php?t=798", 
-   "version" : "1.1.8", 
+   "version" : "1.2.0", 
    "modType" : "Heroes",    
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.6.0"
 	},
     "changelog" : 
      { 
@@ -26,7 +26,8 @@
         "1.1.5" : [ "Fixed error in dependency mod list." ],
         "1.1.6" : [ "Updated chinese translation." ],
 		"1.1.7" : [ "Better submods compatibility system." ],
-        "1.1.8" : [ "Czech translation by George King" ]	
+        "1.1.8" : [ "Czech translation by George King" ],
+		"1.2.0" : [ "Again new Tarnum! Now he's Mercenary in Factory town." ]	
      },
 	"german" : {
 		"name" : "Tarnum ist zurück!",
