@@ -1,0 +1,94 @@
+{
+  "tarnumPathfinder" :
+  {
+    "class" : "pathfinder",
+    "female" : false,
+    "special" : false,
+
+    "texts" :
+    {
+      "name" : "Tarnum",
+      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+      "specialty" :
+      {
+        "description" : "Planeswalkers and Voidwalkers can summon Demons of Dream from ashes of dead bodies.",
+        "tooltip" : "Creature Bonus: Planeswalkers",
+        "name" : "Planeswalkers"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "Tarnum/tarnumPathfinder/spec-small.bmp",
+      "specialtyLarge" : "Tarnum/tarnumPathfinder/spec-large.bmp",
+      "large" : "Tarnum/tarnumPathfinder/portrait-large.bmp",
+      "small" : "Tarnum/tarnumPathfinder/portrait-small.bmp"
+    },
+	"spellbook" :
+	[
+	],
+    "army" :
+    [
+			{ "creature" : "darksquire", "max" : 30, "min" : 20 },
+			{ "creature" : "shadowhunter", "max" : 4, "min" : 3 },
+			{ "creature" : "shadowhunter", "max" : 4, "min" : 3 }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "pathfinding"
+      },
+      {
+        "level" : "basic",
+        "skill" : "resistance"
+      }
+    ],
+	
+	"specialty" : {
+		"bonuses" : {
+			"casts1" : {
+				"type" : "CASTS",
+				"val" : 1,
+				"limiters" : [
+				{
+					"parameters" : [ "plwalker", false ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}]
+			},
+			"casts2" : {
+				"type" : "CASTS",
+				"val" : 2,
+				"limiters" : [
+				{
+					"parameters" : [ "voidwalker", false ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}]
+			},
+			"summons50HP" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.summonCommander",
+				"val" : 50,
+				"limiters" : [
+				{
+					"parameters" : [ "plwalker", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}]
+			},
+			"resurrects" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.summonCommander",
+				"val" : 0,
+				"limiters" : [
+				{
+					"parameters" : [ "plwalker", true ],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}]
+			}
+		}
+	}
+  }
+}

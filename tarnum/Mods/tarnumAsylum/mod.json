@@ -1,0 +1,23 @@
+{ 
+
+   "name" : "Tarnum is back to Asylum", 
+   "description" : "This mod adds Tarnum as a playable hero for Asylum (Pathfinder). In order to play, Asylum town mod must be enabled!", 
+   "author" : "avatar, FallainBlack, Aphra", 
+   "contact" : "http://heroescommunity.com/viewthread.php3?TID=46393", 
+   "version" : "1.0.0", 
+   "modType" : "Compatibility", 
+   "depends" : ["asylum-town"], 
+
+   "changelog" : 
+   { 
+	"1.0.0" : [ "Initial release" ]	 
+   }, 
+   "heroes" : 
+   [ 
+     "config/Tarnum/tarnumPathfinder" 
+   ],
+   "spells" : 
+   [ 
+     "config/Tarnum/summoning" 
+   ]   
+ }

@@ -4,7 +4,7 @@
 
    "author" : "marif, Hobbit, HotA Team", 
    "contact" : "http://forum.vcmi.eu/viewtopic.php?t=798", 
-   "version" : "1.2.5", 
+   "version" : "1.2.6", 
    "modType" : "Heroes",    
 	"compatibility" :
 	{
@@ -32,7 +32,8 @@
         "1.2.2" : [ "Added krs' changes to HotA to the Tarnum the Mercenary" ],
 		"1.2.3" : [ "Three new Tarnums for Refugee, Fairy and Retreat" ],
 		"1.2.4" : [ "Again new Tarnum! Now he's Mercenary in Unofficial Factory town as well." ],
-		"1.2.5" : [ "Update Format for the new factory naming and file structure." ]
+		"1.2.5" : [ "Update Format for the new factory naming and file structure." ],
+		"1.2.5" : [ "Added Tarnum for Asylum (Pathfinder)." ]
      },
 	"german" : {
 		"name" : "Tarnum ist zurück!",
