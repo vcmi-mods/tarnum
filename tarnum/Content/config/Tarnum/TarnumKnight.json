@@ -32,11 +32,6 @@
         "max" : 20,
         "min" : 10
       },
-	  {
-        "creature" : "ballista",
-        "max" : 1,
-        "min" : 1
-      },
       {
         "creature" : "griffin",
         "max" : 3,

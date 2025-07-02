@@ -54,19 +54,19 @@
 		},
 		"none":
 		{ 
-			"aiValue": 10			
+//			"aiValue": 10			
 		},
 		"basic":
 		{
-			"aiValue": 11
+//			"aiValue": 11
 		},
 		"advanced":
 		{
-			"aiValue": 12
+//			"aiValue": 12
 		},
 		"expert":
 		{
-			"aiValue": 13
+//			"aiValue": 13
 		}
 	}
   }

@@ -47,7 +47,7 @@
 		"levels" : {
 			"base":{
 				"power": 10,
-				"aiValue": 20,
+//				"aiValue": 20,
 				"range" : "X",
 				"targetModifier":{"smart":true},
 				"cost": 0, 
@@ -78,7 +78,7 @@
 						"turns" : 4
 					},
 					"stacksSpeed" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : -25,
 						"valueType" : "PERCENT_TO_BASE",

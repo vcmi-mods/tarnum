@@ -4,11 +4,11 @@
 
    "author" : "marif, Hobbit, HotA Team", 
    "contact" : "http://forum.vcmi.eu/viewtopic.php?t=798", 
-   "version" : "1.2.7", 
+   "version" : "1.2.8", 
    "modType" : "Heroes",    
 	"compatibility" :
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},
     "changelog" : 
      { 
@@ -34,7 +34,8 @@
 		"1.2.4" : [ "Again new Tarnum! Now he's Mercenary in Unofficial Factory town as well." ],
 		"1.2.5" : [ "Update Format for the new factory naming and file structure." ],
 		"1.2.6" : [ "Added Tarnum for Asylum (Pathfinder)." ],
-		"1.2.7" : [ "Added Tarnum for Heavenly Forge 2000 (Cyborg)." ]
+		"1.2.7" : [ "Added Tarnum for Heavenly Forge 2000 (Cyborg)." ],
+		"1.2.8" : [ "Update to vcmi-1.7 format." ]
      },
 	"german" : {
 		"name" : "Tarnum ist zurück!",
