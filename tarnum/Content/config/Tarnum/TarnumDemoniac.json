@@ -1,67 +1,61 @@
 {
-  "tarnumDemoniac" :
-  {
-    "class" : "demoniac",
-    "female" : false,
-    "special" : false,
+	"tarnumDemoniac" : {
+		"class" : "demoniac",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "Devils and Arch Devils receive +4 Attack, +2 Defense, and +1 Speed.",
-        "tooltip" : "Creature Bonus: Devils",
-        "name" : "Devils"
-      }
-    },
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Devils and Arch Devils receive +4 Attack, +2 Defense, and +1 Speed.",
+				"tooltip" : "Creature Bonus: Devils",
+				"name" : "Devils"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/Demoniac/spec-small",
-      "specialtyLarge" : "Tarnum/Demoniac/spec-large",
-      "large" : "Tarnum/Demoniac/portrait-large.bmp",
-      "small" : "Tarnum/Demoniac/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/Demoniac/spec-small",
+			"specialtyLarge" : "Tarnum/Demoniac/spec-large",
+			"large" : "Tarnum/Demoniac/portrait-large.bmp",
+			"small" : "Tarnum/Demoniac/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "imp",
-        "max" : 30,
-        "min" : 20
-      },
-      {
-        "creature" : "hellHound",
-        "max" : 4,
-        "min" : 3
-      },
-      {
-        "creature" : "hellHound",
-        "max" : 4,
-        "min" : 3
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "imp",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "hellHound",
+				"max" : 4,
+				"min" : 3
+			},
+			{
+				"creature" : "hellHound",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "leadership"
-      },
-      {
-        "level" : "basic",
-        "skill" : "tactics"
-      }
-    ],
-    
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+
 		"specialty" : {
 			"base" : {
 				"limiters" : [
 					{
 						"creature" : "devil",
-						"includeUpgrades" :  true,
+						"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]

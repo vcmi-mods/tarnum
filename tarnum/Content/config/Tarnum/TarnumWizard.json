@@ -1,67 +1,69 @@
 {
-  "tarnumWizard" :
-  {
-    "class" : "wizard",
-    "female" : false,
-    "special" : false,
+	"tarnumWizard" : {
+		"class" : "wizard",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "Can upgrade Monks or Zealots and Magi or Arch Magi to Enchanters.",
-        "tooltip" : "Hero Bonus: Enchanters.",
-        "name" : "Enchanters"
-      }
-    },
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Can upgrade Monks or Zealots and Magi or Arch Magi to Enchanters.",
+				"tooltip" : "Hero Bonus: Enchanters.",
+				"name" : "Enchanters"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/Wizard/spec-small",
-      "specialtyLarge" : "Tarnum/Wizard/spec-large",
-      "large" : "Tarnum/Wizard/portrait-large.bmp",
-      "small" : "Tarnum/Wizard/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/Wizard/spec-small",
+			"specialtyLarge" : "Tarnum/Wizard/spec-large",
+			"large" : "Tarnum/Wizard/portrait-large.bmp",
+			"small" : "Tarnum/Wizard/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "enchanter",
-        "max" : 6,
-        "min" : 6
-      },
-      {
-        "creature" : "enchanter",
-        "max" : 3,
-        "min" : 3
-      },
-      {
-        "creature" : "enchanter",
-        "max" : 1,
-        "min" : 1
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "enchanter",
+				"max" : 6,
+				"min" : 6
+			},
+			{
+				"creature" : "enchanter",
+				"max" : 3,
+				"min" : 3
+			},
+			{
+				"creature" : "enchanter",
+				"max" : 1,
+				"min" : 1
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "advanced",
-        "skill" : "wisdom"
-      }
-    ],
-    
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+
 		"specialty" : {
 			"base" : {
 				"addInfo" : "enchanter",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"archMage2enchanter" : { "subtype" : "archMage" },
-				"mage2enchanter" : { "subtype" : "mage" },
-				"monk2enchanter" : { "subtype" : "monk" },
-				"zealot2enchanter" : { "subtype" : "zealot" }
+				"archMage2enchanter" : {
+					"subtype" : "archMage"
+				},
+				"mage2enchanter" : {
+					"subtype" : "mage"
+				},
+				"monk2enchanter" : {
+					"subtype" : "monk"
+				},
+				"zealot2enchanter" : {
+					"subtype" : "zealot"
+				}
 			}
 		}
 	}

@@ -1,11 +1,23 @@
 {
 	"waerjakTheDrifter" : {
-	    "female" : false,
+		"female" : false,
 		"special" : false,
 		"army" : [
-			{ "creature" : "boar", "max" : 8, "min" : 6 },
-			{ "creature" : "orc", "max" : 4, "min" : 4 },
-			{ "creature" : "orc", "max" : 4, "min" : 3 }
+			{
+				"creature" : "boar",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "orc",
+				"max" : 4,
+				"min" : 4
+			},
+			{
+				"creature" : "orc",
+				"max" : 4,
+				"min" : 3
+			}
 		],
 		"class" : "drifterM",
 		"images" : {
@@ -15,9 +27,18 @@
 			"specialtySmall" : "tarnum/TarnumDrifter/w_spec32"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "offence" },
-			{ "level" : "basic", "skill" : "leadership" },
-			{ "level" : "basic", "skill" : "pathfinding" }
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

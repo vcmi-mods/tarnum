@@ -1,71 +1,73 @@
 {
-  "tarnumRanger" :
-  {
-    "class" : "ranger",
-    "female" : false,
-    "special" : false,
+	"tarnumRanger" : {
+		"class" : "ranger",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "Can upgrade Archers or Marksmen and Wood Elves or Grand Elves to Sharpshooters.",
-        "tooltip" : "Hero Bonus: Sharpshooters.",
-        "name" : "Sharpshooters"
-      }
-    },
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Can upgrade Archers or Marksmen and Wood Elves or Grand Elves to Sharpshooters.",
+				"tooltip" : "Hero Bonus: Sharpshooters.",
+				"name" : "Sharpshooters"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/Ranger/spec-small",
-      "specialtyLarge" : "Tarnum/Ranger/spec-large",
-      "large" : "Tarnum/Ranger/portrait-large.bmp",
-      "small" : "Tarnum/Ranger/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/Ranger/spec-small",
+			"specialtyLarge" : "Tarnum/Ranger/spec-large",
+			"large" : "Tarnum/Ranger/portrait-large.bmp",
+			"small" : "Tarnum/Ranger/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "sharpshooter",
-        "max" : 6,
-        "min" : 6
-      },
-      {
-        "creature" : "sharpshooter",
-        "max" : 3,
-        "min" : 3
-      },
-      {
-        "creature" : "sharpshooter",
-        "max" : 1,
-        "min" : 1
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "sharpshooter",
+				"max" : 6,
+				"min" : 6
+			},
+			{
+				"creature" : "sharpshooter",
+				"max" : 3,
+				"min" : 3
+			},
+			{
+				"creature" : "sharpshooter",
+				"max" : 1,
+				"min" : 1
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "archery"
-      },
-      {
-        "level" : "basic",
-        "skill" : "leadership"
-      }
-    ],
-    
-	"specialty" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+
+		"specialty" : {
 			"base" : {
 				"addInfo" : "sharpshooter",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"archer2sharpshooter" : { "subtype" : "archer" },
-				"grandElf2sharpshooter" : { "subtype" : "grandElf" },
-				"marksman2sharpshooter" : { "subtype" : "marksman" },
-				"woodElf2sharpshooter" : { "subtype" : "woodElf" }
+				"archer2sharpshooter" : {
+					"subtype" : "archer"
+				},
+				"grandElf2sharpshooter" : {
+					"subtype" : "grandElf"
+				},
+				"marksman2sharpshooter" : {
+					"subtype" : "marksman"
+				},
+				"woodElf2sharpshooter" : {
+					"subtype" : "woodElf"
+				}
 			}
 		}
 	}

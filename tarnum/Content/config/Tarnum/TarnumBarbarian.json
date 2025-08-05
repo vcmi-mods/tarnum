@@ -1,59 +1,53 @@
 {
-  "tarnumBarbarian" :
-  {
-    "class" : "barbarian",
-    "female" : false,
-    "special" : false,
+	"tarnumBarbarian" : {
+		"class" : "barbarian",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Tarnum is a young Barbarian who has spent his entire life under the oppression of the Wizard-Kings of Bracaduun, but he's always dreamed that life could be better - should be better.",
-      "specialty" :
-      {
-        "description" : "Receives a 5% per level bonus to Offense skill percentage.",
-        "tooltip" : "Secondary Skill Bonus: Offense.",
-        "name" : "Offense"
-      }
-    },
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Tarnum is a young Barbarian who has spent his entire life under the oppression of the Wizard-Kings of Bracaduun, but he's always dreamed that life could be better - should be better.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Offense.",
+				"name" : "Offense"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/Barbarian/spec-small",
-      "specialtyLarge" : "Tarnum/Barbarian/spec-large",
-      "large" : "Tarnum/Barbarian/portrait-large.bmp",
-      "small" : "Tarnum/Barbarian/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/Barbarian/spec-small",
+			"specialtyLarge" : "Tarnum/Barbarian/spec-large",
+			"large" : "Tarnum/Barbarian/portrait-large.bmp",
+			"small" : "Tarnum/Barbarian/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "goblin",
-        "max" : 25,
-        "min" : 15
-      },
-      {
-        "creature" : "goblinWolfRider",
-        "max" : 7,
-        "min" : 5
-      },
-      {
-        "creature" : "orc",
-        "max" : 6,
-        "min" : 4
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "goblin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "orc",
+				"max" : 6,
+				"min" : 4
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "advanced",
-        "skill" : "offence"
-      }
-    ],
-    
-    "specialty": {
-        "secondary": "offence" 
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "offence"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "offence"
+		}
 	}
-  }
 }

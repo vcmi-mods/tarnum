@@ -1,92 +1,100 @@
 {
-  "tarnumPhilosopher" :
-  {
-    "class" : "philosopher",
-    "female" : false,
-    "special" : false,
+	"tarnumPhilosopher" : {
+		"class" : "philosopher",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "Jabberwocks and Monstrous Jabberwocks receive +4 Attack, +2 Defense, and +1 Speed.",
-        "tooltip" : "Creature Bonus: Jabberwocks",
-        "name" : "Jabberwocks"
-      }
-    },
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Jabberwocks and Monstrous Jabberwocks receive +4 Attack, +2 Defense, and +1 Speed.",
+				"tooltip" : "Creature Bonus: Jabberwocks",
+				"name" : "Jabberwocks"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/tarnumPhilosopher/spec-small.bmp",
-      "specialtyLarge" : "Tarnum/tarnumPhilosopher/spec-large.bmp",
-      "large" : "Tarnum/tarnumPhilosopher/portrait-large.bmp",
-      "small" : "Tarnum/tarnumPhilosopher/portrait-small.bmp"
-    },
-	"spellbook" :
-	[
-		"reconstruction"
-	],
-    "army" :
-    [
-			{ "creature" : "cupid", "max" : 18, "min" : 10 },
-			{ "creature" : "cameraObscuraCreature", "max" : 1, "min" : 1 },
-			{ "creature" : "homunculus", "max" : 12, "min" : 6 }
-    ],
+		"images" : {
+			"specialtySmall" : "Tarnum/tarnumPhilosopher/spec-small.bmp",
+			"specialtyLarge" : "Tarnum/tarnumPhilosopher/spec-large.bmp",
+			"large" : "Tarnum/tarnumPhilosopher/portrait-large.bmp",
+			"small" : "Tarnum/tarnumPhilosopher/portrait-small.bmp"
+		},
+		"spellbook" : [
+			"reconstruction"
+		],
+		"army" : [
+			{
+				"creature" : "cupid",
+				"max" : 18,
+				"min" : 10
+			},
+			{
+				"creature" : "cameraObscuraCreature",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "homunculus",
+				"max" : 12,
+				"min" : 6
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "wisdom"
-      },
-      {
-        "level" : "basic",
-        "skill" : "fireMagic"
-      }
-    ],
-	
-	"specialty" : {
-		"bonuses" : {
-			"attack" : {
-				"subtype" : "attack",
-				"type" : "PRIMARY_SKILL",
-				"val" : 4,
-				"limiters" : [
-				{
-					"creature" : "jabberwock", 
-					"includeUpgrades" : true,
-					"type" : "CREATURE_TYPE_LIMITER"
-				}]
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
-			"defence" : {
-				"subtype" : "defence",
-				"type" : "PRIMARY_SKILL",
-				"val" : 2,
-				"limiters" : [
-				{
-					"creature" : "jabberwock", 
-					"includeUpgrades" : true,
-					"type" : "CREATURE_TYPE_LIMITER"
-				}]
-			},
-			"speed" : {
-				"type" : "STACKS_SPEED",
-				"val" : 1,
-				"limiters" : [
-				{
-					"creature" : "jabberwock", 
-					"includeUpgrades" : true,
-					"type" : "CREATURE_TYPE_LIMITER"
-				}]
-			},
-			"summoner" : {
-				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "summonApparitions",
-				"val" : 3
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 4,
+					"limiters" : [
+						{
+							"creature" : "jabberwock",
+							"includeUpgrades" : true,
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"defence" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2,
+					"limiters" : [
+						{
+							"creature" : "jabberwock",
+							"includeUpgrades" : true,
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : [
+						{
+							"creature" : "jabberwock",
+							"includeUpgrades" : true,
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"summoner" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "summonApparitions",
+					"val" : 3
+				}
 			}
 		}
 	}
-  }
 }

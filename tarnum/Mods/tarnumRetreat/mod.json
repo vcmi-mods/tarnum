@@ -1,17 +1,19 @@
 {
-   "name" : "Tarnum is back to Retreat", 
-   "description" : "This mod adds Tarnum as a playable hero for Retreat (Vanguard). In order to play, Retreat town mod must be installed!", 
-   "author" : "avatar, FallainBlack", 
-   "contact" : "", 
-   "version" : "1.0.0", 
-   "modType" : "Compatibility",
-   "depends" : ["retreat-town"],
-   "changelog" : 
-   { 
-         "1.0.0" : [ "Initial release" ] 
-   },   
-   "heroes" : 
-   [ 
-     "config/Tarnum/TarnumVanguard.json" 
-   ] 
- }
+	"name" : "Tarnum is back to Retreat",
+	"description" : "This mod adds Tarnum as a playable hero for Retreat (Vanguard). In order to play, Retreat town mod must be installed!",
+	"author" : "avatar, FallainBlack",
+	"contact" : "",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"retreat-town"
+	],
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"heroes" : [
+		"config/Tarnum/TarnumVanguard.json"
+	]
+}

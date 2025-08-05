@@ -1,67 +1,61 @@
 {
-  "tarnumVanguard" :
-  {
-    "class" : "vanguard",
-    "female" : false,
-    "special" : false,
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "All Snake Graspers, Snake Bearers and Jiu Yings gain Ranged Retaliation ability. Additionally Snake Bearers and Jiu Yings can shoot all adjacent units.",
-        "tooltip" : "Creature Bonus: Snake Graspers",
-        "name" : "Snake Graspers"
-      }
-    },
+	"tarnumVanguard" : {
+		"class" : "vanguard",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "All Snake Graspers, Snake Bearers and Jiu Yings gain Ranged Retaliation ability. Additionally Snake Bearers and Jiu Yings can shoot all adjacent units.",
+				"tooltip" : "Creature Bonus: Snake Graspers",
+				"name" : "Snake Graspers"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/TarnumVanguard/spec-small.bmp",
-      "specialtyLarge" : "Tarnum/TarnumVanguard/spec-large.bmp",
-      "large" : "Tarnum/TarnumVanguard/portrait-large.bmp",
-      "small" : "Tarnum/TarnumVanguard/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/TarnumVanguard/spec-small.bmp",
+			"specialtyLarge" : "Tarnum/TarnumVanguard/spec-large.bmp",
+			"large" : "Tarnum/TarnumVanguard/portrait-large.bmp",
+			"small" : "Tarnum/TarnumVanguard/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "amHuluLeaf",
-        "max" : 25,
-        "min" : 15
-      },
-      {
-        "creature" : "amCultivator",
-        "max" : 4,
-        "min" : 2
-      },
-      {
-        "creature" : "amCultivator",
-        "max" : 3,
-        "min" : 2
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "amCultivator",
+				"max" : 4,
+				"min" : 2
+			},
+			{
+				"creature" : "amCultivator",
+				"max" : 3,
+				"min" : 2
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "artillery"
-      },
-      {
-        "level" : "basic",
-        "skill" : "pathfinding"
-      }
-    ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
 		"specialty" : {
 			"bonuses" : {
 				"shootAdjenced" : {
 					"type" : "SHOOTS_ALL_ADJACENT",
 					"limiters" : [
 						{
-					"creature" : "amSnakeGrasper", 
-					"includeUpgrades" : true,
+							"creature" : "amSnakeGrasper",
+							"includeUpgrades" : true,
 							"type" : "CREATURE_TYPE_LIMITER"
 						}
 					]
@@ -70,8 +64,8 @@
 					"type" : "RANGED_RETALIATION",
 					"limiters" : [
 						{
-					"creature" : "amSnakeGrasper", 
-					"includeUpgrades" : true,
+							"creature" : "amSnakeGrasper",
+							"includeUpgrades" : true,
 							"type" : "CREATURE_TYPE_LIMITER"
 						}
 					]

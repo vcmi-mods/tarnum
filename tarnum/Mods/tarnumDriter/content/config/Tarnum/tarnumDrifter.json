@@ -1,14 +1,28 @@
 {
 	"tarnumTheDrifter" : {
-	    "female" : false,
+		"female" : false,
 		"special" : false,
 		"army" : [
-			{ "creature" : "iceElemental", "max" : 8, "min" : 4},
-			{ "creature" : "iceElemental", "max" : 8, "min" : 4 },
-			{ "creature" : "iceElemental", "max" : 8, "min" : 4 }
+			{
+				"creature" : "iceElemental",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "iceElemental",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "iceElemental",
+				"max" : 8,
+				"min" : 4
+			}
 		],
 		"class" : "drifterM",
-		"spellbook" : [ "frostRing" ],
+		"spellbook" : [
+			"frostRing"
+		],
 		"battleImage" : "tarnum/TarnumDrifter/snowling.def",
 		"images" : {
 			"large" : "tarnum/TarnumDrifter/tarnumBig.png",
@@ -17,11 +31,20 @@
 			"specialtySmall" : "tarnum/TarnumDrifter/t_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "wisdom" },
-			{ "level" : "basic", "skill" : "waterMagic" },
-			{ "level" : "basic", "skill" : "firstAid" }
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"castBlizz" : {

@@ -1,59 +1,53 @@
 {
-  "tarnumCyborg2k" :
-  {
-    "class" : "cyborg2k",
-    "female" : false,
-    "special" : false,
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "Can upgrade Stingers and Bruisers into Sluggers.",
-        "tooltip" : "Special Upgrades: Sluggers",
-        "name" : "Sluggers"
-      }
-    },
+	"tarnumCyborg2k" : {
+		"class" : "cyborg2k",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Can upgrade Stingers and Bruisers into Sluggers.",
+				"tooltip" : "Special Upgrades: Sluggers",
+				"name" : "Sluggers"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/TarnumCyborg2k/spec-small.bmp",
-      "specialtyLarge" : "Tarnum/TarnumCyborg2k/spec-large.bmp",
-      "large" : "Tarnum/TarnumCyborg2k/portrait-large.bmp",
-      "small" : "Tarnum/TarnumCyborg2k/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/TarnumCyborg2k/spec-small.bmp",
+			"specialtyLarge" : "Tarnum/TarnumCyborg2k/spec-large.bmp",
+			"large" : "Tarnum/TarnumCyborg2k/portrait-large.bmp",
+			"small" : "Tarnum/TarnumCyborg2k/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "cyberDead2k",
-        "max" : 15,
-        "min" : 15
-      },
-      {
-        "creature" : "gruntSoldier2k",
-        "max" : 7,
-        "min" : 7
-      },
-      {
-        "creature" : "pyro2k",
-        "max" : 4,
-        "min" : 4
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "cyberDead2k",
+				"max" : 15,
+				"min" : 15
+			},
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 7,
+				"min" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 4
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "ballistics"
-      },
-      {
-        "level" : "basic",
-        "skill" : "archery"
-      }
-    ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
 		"specialty" : {
 			"bonuses" : {
 				"stingerstosluggers" : {

@@ -1,18 +1,19 @@
-{ 
-
-   "name" : "Tarnum is back to Heavenly Forge", 
-   "description" : "This mod adds Tarnum as a playable hero for Heavenly Forge 2000 (Cyborg). In order to play, Forge2k town mod must be installed!", 
-   "author" : "fallainBlack, avatar, Aphra", 
-   "contact" : "", 
-   "version" : "1.0.0", 
-   "modType" : "Compatibility",
-   "depends" : ["forge2k"],
-   "changelog" : 
-   { 
-         "1.0.0" : [ "Initial release" ] 
-   },   
-   "heroes" : 
-   [ 
-     "config/Tarnum/TarnumCyborg2k.json" 
-   ] 
- }
+{
+	"name" : "Tarnum is back to Heavenly Forge",
+	"description" : "This mod adds Tarnum as a playable hero for Heavenly Forge 2000 (Cyborg). In order to play, Forge2k town mod must be installed!",
+	"author" : "fallainBlack, avatar, Aphra",
+	"contact" : "",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"forge2k"
+	],
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"heroes" : [
+		"config/Tarnum/TarnumCyborg2k.json"
+	]
+}

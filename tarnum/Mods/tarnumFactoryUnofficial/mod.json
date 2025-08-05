@@ -1,25 +1,23 @@
-{ 
-
-   "name" : "Tarnum is back to Unofficial Factory", 
-   "description" : "This mod adds Tarnum as a playable hero for Unofficial Factory (Mercenary). In order to play, Factory HotA Creatures mod must be installed and Unofficial Factory has to be enabled!", 
-   "author" : "FallainBlack, avatar, Olegmods.INC", 
-   "contact" : "https://vcmi.eu/Mod%20Repository/Town/Factory%20HotA%20Creatures/", 
-   "version" : "1.0.0", 
-   "modType" : "Compatibility",
-   "depends" : [
+{
+	"name" : "Tarnum is back to Unofficial Factory",
+	"description" : "This mod adds Tarnum as a playable hero for Unofficial Factory (Mercenary). In order to play, Factory HotA Creatures mod must be installed and Unofficial Factory has to be enabled!",
+	"author" : "FallainBlack, avatar, Olegmods.INC",
+	"contact" : "https://vcmi.eu/Mod%20Repository/Town/Factory%20HotA%20Creatures/",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"depends" : [
 		"factory-creatures",
 		"factory-creatures.factory"
 	],
-  	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
 	},
-   "changelog" : 
-   { 
-         "1.0.0" : [ "Initial release" ] 
-   },   
-   "heroes" : 
-   [ 
-     "config/Tarnum/TarnumMercenary2.json" 
-   ] 
- }
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"heroes" : [
+		"config/Tarnum/TarnumMercenary2.json"
+	]
+}

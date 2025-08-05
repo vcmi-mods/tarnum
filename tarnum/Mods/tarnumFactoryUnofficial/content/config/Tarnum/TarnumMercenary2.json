@@ -1,6 +1,5 @@
 {
-	"factory-creatures.factory:tarnumfactory" : 
-	{
-    "special" : false,
+	"factory-creatures.factory:tarnumfactory" : {
+		"special" : false
 	}
 }

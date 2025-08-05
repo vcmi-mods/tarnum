@@ -1,116 +1,110 @@
 {
-  "tarnumVizier" :
-  {
-    "class" : "vizier",
-    "female" : false,
-    "special" : false,
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "Increases the speed of Camel Riders or Desert Warriors by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up). Having Camel Riders or Desert Warriors in Tarnum's army grants him permanent Disguise.",
-        "tooltip" : "Creature Bonus: Camels",
-        "name" : "Camel Riders"
-      }
-    },
+	"tarnumVizier" : {
+		"class" : "vizier",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Increases the speed of Camel Riders or Desert Warriors by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up). Having Camel Riders or Desert Warriors in Tarnum's army grants him permanent Disguise.",
+				"tooltip" : "Creature Bonus: Camels",
+				"name" : "Camel Riders"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/TarnumVizier/spec-small.bmp",
-      "specialtyLarge" : "Tarnum/TarnumVizier/spec-large.bmp",
-      "large" : "Tarnum/TarnumVizier/portrait-large.bmp",
-      "small" : "Tarnum/TarnumVizier/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/TarnumVizier/spec-small.bmp",
+			"specialtyLarge" : "Tarnum/TarnumVizier/spec-large.bmp",
+			"large" : "Tarnum/TarnumVizier/portrait-large.bmp",
+			"small" : "Tarnum/TarnumVizier/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "whipper",
-        "max" : 25,
-        "min" : 15
-      },
-      {
-        "creature" : "camelRider",
-        "max" : 6,
-        "min" : 3
-      },
-      {
-        "creature" : "camelRider",
-        "max" : 6,
-        "min" : 3
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 6,
+				"min" : 3
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 6,
+				"min" : 3
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "firstAid"
-      },
-      {
-        "level" : "basic",
-        "skill" : "ballistics"
-      }
-    ],
-	"specialty" : {
-		"bonuses" : {
-			"attack" : {
-				"limiters" : [
-					{
-					"creature" : "camelRider", 
-					"includeUpgrades" : true,
-						"type" : "CREATURE_TYPE_LIMITER"
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"limiters" : [
+						{
+							"creature" : "camelRider",
+							"includeUpgrades" : true,
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					],
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 4,
+						"stepSize" : 1
 					}
-				],
-				"subtype" : "attack",
-				"type" : "PRIMARY_SKILL",
-				"updater": {
-					"type": "GROWS_WITH_LEVEL",
-					"valPer20" : 4,
-					"stepSize" : 1
+				},
+				"defence" : {
+					"limiters" : [
+						{
+							"creature" : "camelRider",
+							"includeUpgrades" : true,
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					],
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 2,
+						"stepSize" : 1
+					}
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : [
+						{
+							"creature" : "camelRider",
+							"includeUpgrades" : true,
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
+				},
+				"disguised" : {
+					"type" : "DISGUISED",
+					"val" : 3,
+					"limiters" : [
+						{
+							"creature" : "camelRider",
+							"includeUpgrades" : true,
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					]
 				}
-			},
-			"defence" : {
-				"limiters" : [
-					{
-					"creature" : "camelRider", 
-					"includeUpgrades" : true,
-						"type" : "CREATURE_TYPE_LIMITER"
-					}
-				],
-				"subtype" : "defence",
-				"type" : "PRIMARY_SKILL",
-				"updater": {
-					"type": "GROWS_WITH_LEVEL",
-					"valPer20" : 2,
-					"stepSize" : 1
-				}
-			},
-			"speed" : {
-				"type" : "STACKS_SPEED",
-				"val" : 1,
-				"limiters" : [
-					{
-					"creature" : "camelRider", 
-					"includeUpgrades" : true,
-						"type" : "CREATURE_TYPE_LIMITER"
-					}
-				]
-			},
-			"disguised" : {
-				"type" : "DISGUISED",
-				"val" : 3,
-				"limiters" : [
-					{
-					"creature" : "camelRider", 
-					"includeUpgrades" : true,
-						"type" : "CREATURE_TYPE_LIMITER"
-					}
-				]
 			}
 		}
 	}
-  }
 }

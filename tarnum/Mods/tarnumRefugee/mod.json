@@ -1,17 +1,19 @@
 {
-   "name" : "Tarnum is back to Refugee", 
-   "description" : "This mod adds Tarnum as a playable hero for Refugee (Wanderer). In order to play, Refugee town mod must be installed!", 
-   "author" : "avatar, FallainBlack", 
-   "contact" : "", 
-   "version" : "1.0.0", 
-   "modType" : "Compatibility",
-   "depends" : ["refugee-town"],
-   "changelog" : 
-   { 
-         "1.0.0" : [ "Initial release" ] 
-   },   
-   "heroes" : 
-   [ 
-     "config/Tarnum/TarnumWanderer.json" 
-   ] 
- }
+	"name" : "Tarnum is back to Refugee",
+	"description" : "This mod adds Tarnum as a playable hero for Refugee (Wanderer). In order to play, Refugee town mod must be installed!",
+	"author" : "avatar, FallainBlack",
+	"contact" : "",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"refugee-town"
+	],
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"heroes" : [
+		"config/Tarnum/TarnumWanderer.json"
+	]
+}

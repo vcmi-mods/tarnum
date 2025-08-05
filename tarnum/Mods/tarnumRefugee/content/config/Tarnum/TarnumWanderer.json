@@ -1,59 +1,53 @@
 {
-  "tarnumrfghcWanderer" :
-  {
-    "class" : "rfghcWandererM",
-    "female" : false,
-    "special" : false,
-    "texts" :
-    {
-      "name" : "Tarnum",
-      "biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-      "specialty" :
-      {
-        "description" : "Can morph every Rusty Dragolems into Angra Mainyus, Angra Mainyus inoto Rusty Dragolems, Dragolems into Ahrimans and Ahrimans into Dragolems",
-        "tooltip" : "Creature Bonus: Dragolems/Ahrimans",
-        "name" : "Morphism"
-      }
-    },
+	"tarnumrfghcWanderer" : {
+		"class" : "rfghcWandererM",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Can morph every Rusty Dragolems into Angra Mainyus, Angra Mainyus inoto Rusty Dragolems, Dragolems into Ahrimans and Ahrimans into Dragolems",
+				"tooltip" : "Creature Bonus: Dragolems/Ahrimans",
+				"name" : "Morphism"
+			}
+		},
 
-    "images" :
-    {
-      "specialtySmall" : "Tarnum/TarnumWanderer/spec-small.bmp",
-      "specialtyLarge" : "Tarnum/TarnumWanderer/spec-large.bmp",
-      "large" : "Tarnum/TarnumWanderer/portrait-large.bmp",
-      "small" : "Tarnum/TarnumWanderer/portrait-small.bmp"
-    },
+		"images" : {
+			"specialtySmall" : "Tarnum/TarnumWanderer/spec-small.bmp",
+			"specialtyLarge" : "Tarnum/TarnumWanderer/spec-large.bmp",
+			"large" : "Tarnum/TarnumWanderer/portrait-large.bmp",
+			"small" : "Tarnum/TarnumWanderer/portrait-small.bmp"
+		},
 
-    "army" :
-    [
-      {
-        "creature" : "rfgcOvercomer",
-        "max" : 25,
-        "min" : 15
-      },
-      {
-        "creature" : "rogue",
-        "max" : 7,
-        "min" : 4
-      },
-      {
-        "creature" : "rfgcVagabond",
-        "max" : 3,
-        "min" : 2
-      }
-    ],
+		"army" : [
+			{
+				"creature" : "rfgcOvercomer",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "rogue",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "rfgcVagabond",
+				"max" : 3,
+				"min" : 2
+			}
+		],
 
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "logistics"
-      },
-      {
-        "level" : "basic",
-        "skill" : "armorer"
-      }
-    ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
 		"specialty" : {
 			"bonuses" : {
 				"RFGCL7A1toRFGCL7B1" : {

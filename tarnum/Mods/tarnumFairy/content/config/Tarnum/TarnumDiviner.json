@@ -1,27 +1,28 @@
 {
-  "tarnumDiviner" : {
-	"class" : "diviner",
-	"female" : false,
-	"special" : false,
-	"spellbook": [ "fortune" ],
-	"texts" : {
-		"name" : "Tarnum",
-		"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
-		"specialty" : {
-			"description" : "All casting creatures in the Tarnum's army can cast one more spell.",
-			"tooltip" : "Creature Bonus: Casts +1 spell",
-			"name" : "Spellbinder"
-		}
-	},
-	"images" :	{
-		"specialtySmall" : "Tarnum/TarnumDiviner/spec-small.bmp",
-		"specialtyLarge" : "Tarnum/TarnumDiviner/spec-large.bmp",
-		"large" : "Tarnum/TarnumDiviner/portrait-large.bmp",
-		"small" : "Tarnum/TarnumDiviner/portrait-small.bmp"
-    },
+	"tarnumDiviner" : {
+		"class" : "diviner",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"fortune"
+		],
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "All casting creatures in the Tarnum's army can cast one more spell.",
+				"tooltip" : "Creature Bonus: Casts +1 spell",
+				"name" : "Spellbinder"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "Tarnum/TarnumDiviner/spec-small.bmp",
+			"specialtyLarge" : "Tarnum/TarnumDiviner/spec-large.bmp",
+			"large" : "Tarnum/TarnumDiviner/portrait-large.bmp",
+			"small" : "Tarnum/TarnumDiviner/portrait-small.bmp"
+		},
 
-    "army" :
-		[
+		"army" : [
 			{
 				"creature" : "ftFae1",
 				"max" : 30,
@@ -39,31 +40,31 @@
 			}
 		],
 
-    "skills" : [
-      {
-        "level" : "basic",
-        "skill" : "wisdom"
-      },
-      {
-        "level" : "basic",
-        "skill" : "sorcery"
-      }
-    ],
-	
-	"specialty" : {
-		"bonuses" : {
-			"caster" : {
-				"type" : "CASTS",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER",
-				"limiters" : [
-					{
-						"bonusType" :  "CASTS",
-						"type" : "HAS_ANOTHER_BONUS_LIMITER"
-					}
-				]
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"caster" : {
+					"type" : "CASTS",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"bonusType" : "CASTS",
+							"type" : "HAS_ANOTHER_BONUS_LIMITER"
+						}
+					]
+				}
 			}
 		}
 	}
-  }
 }
