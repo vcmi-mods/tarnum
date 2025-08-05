@@ -23,7 +23,7 @@
 			"bonuses" : {
 				"slayer" : {
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer",
+					"subtype" : "slayer",
 					"val" : 3
 				}
 			}

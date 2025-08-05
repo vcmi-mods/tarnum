@@ -58,13 +58,13 @@
 			"bonuses" : {
 				"stingerstosluggers" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.stringer2k",
-					"addInfo" : "creature.heavystringer2k"
+					"subtype" : "stringer2k",
+					"addInfo" : "heavystringer2k"
 				},
 				"bruiserstosluggers" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.bruiser2k",
-					"addInfo" : "creature.heavystringer2k"
+					"subtype" : "bruiser2k",
+					"addInfo" : "heavystringer2k"
 				}
 			}
 		}

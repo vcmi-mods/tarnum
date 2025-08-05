@@ -58,11 +58,12 @@
 			"bonuses" : {
 				"forceField" : {
 					"type" : "ENCHANTED",
-					"subtype" : "spell.forceField",
+					"subtype" : "forceField",
 					"val" : 2,
 					"limiters" : [
 					{
-						"parameters" : [ "alien", false ],
+						"creature" : "alien", 
+					"includeUpgrades" : false,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}]
 				}

@@ -58,7 +58,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [
 					{
-						"parameters" : [ "CASTS" ],
+						"bonusType" :  "CASTS",
 						"type" : "HAS_ANOTHER_BONUS_LIMITER"
 					}
 				]

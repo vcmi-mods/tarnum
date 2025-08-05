@@ -60,7 +60,8 @@
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "firebird", true ],
+						"creature" : "firebird",
+						"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
@@ -72,12 +73,12 @@
 					"val" : 10
 				},
 				"attack" : {
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"val" : 5
 				},
 				"defence" : {
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"val" : 5
 				}

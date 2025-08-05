@@ -58,23 +58,23 @@
 			"bonuses" : {
 				"RFGCL7A1toRFGCL7B1" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.rfgcDragolem",
-					"addInfo" : "creature.rfgcAngraMainyu"
+					"subtype" : "rfgcDragolem",
+					"addInfo" : "rfgcAngraMainyu"
 				},
 				"RFGCL7B1toRFGCL7A1" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.rfgcAngraMainyu",
-					"addInfo" : "creature.rfgcDragolem"
+					"subtype" : "rfgcAngraMainyu",
+					"addInfo" : "rfgcDragolem"
 				},
 				"RFGCL7A2toRFGCL7B2" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.rfgcDragolemUp",
-					"addInfo" : "creature.rfgcAhriman"
+					"subtype" : "rfgcDragolemUp",
+					"addInfo" : "rfgcAhriman"
 				},
 				"RFGCL7B2toRFGCL7A2" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.rfgcAhriman",
-					"addInfo" : "creature.rfgcDragolemUp"
+					"subtype" : "rfgcAhriman",
+					"addInfo" : "rfgcDragolemUp"
 				}
 			}
 		}

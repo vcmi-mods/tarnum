@@ -54,14 +54,14 @@
     
 		"specialty" : {
 			"base" : {
-				"addInfo" : "creature.enchanter",
+				"addInfo" : "enchanter",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"archMage2enchanter" : { "subtype" : "creature.archMage" },
-				"mage2enchanter" : { "subtype" : "creature.mage" },
-				"monk2enchanter" : { "subtype" : "creature.monk" },
-				"zealot2enchanter" : { "subtype" : "creature.zealot" }
+				"archMage2enchanter" : { "subtype" : "archMage" },
+				"mage2enchanter" : { "subtype" : "mage" },
+				"monk2enchanter" : { "subtype" : "monk" },
+				"zealot2enchanter" : { "subtype" : "zealot" }
 			}
 		}
 	}

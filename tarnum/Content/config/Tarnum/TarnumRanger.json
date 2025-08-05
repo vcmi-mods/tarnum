@@ -58,14 +58,14 @@
     
 	"specialty" : {
 			"base" : {
-				"addInfo" : "creature.sharpshooter",
+				"addInfo" : "sharpshooter",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"archer2sharpshooter" : { "subtype" : "creature.archer" },
-				"grandElf2sharpshooter" : { "subtype" : "creature.grandElf" },
-				"marksman2sharpshooter" : { "subtype" : "creature.marksman" },
-				"woodElf2sharpshooter" : { "subtype" : "creature.woodElf" }
+				"archer2sharpshooter" : { "subtype" : "archer" },
+				"grandElf2sharpshooter" : { "subtype" : "grandElf" },
+				"marksman2sharpshooter" : { "subtype" : "marksman" },
+				"woodElf2sharpshooter" : { "subtype" : "woodElf" }
 			}
 		}
 	}

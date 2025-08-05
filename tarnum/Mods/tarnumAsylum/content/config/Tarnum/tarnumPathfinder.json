@@ -53,7 +53,8 @@
 				"val" : 1,
 				"limiters" : [
 				{
-					"parameters" : [ "plwalker", false ],
+					"creature" : "plwalker", 
+					"includeUpgrades" : false,
 					"type" : "CREATURE_TYPE_LIMITER"
 				}]
 			},
@@ -62,29 +63,32 @@
 				"val" : 2,
 				"limiters" : [
 				{
-					"parameters" : [ "voidwalker", false ],
+					"creature" : "voidwalker", 
+					"includeUpgrades" : false,
 					"type" : "CREATURE_TYPE_LIMITER"
 				}]
 			},
 			"summons50HP" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.summonCommander",
+				"subtype" : "summonCommander",
 				"val" : 50,
 				"limiters" : [
 				{
-					"parameters" : [ "plwalker", true ],
+					"creature" : "plwalker", 
+					"includeUpgrades" : true,
 					"type" : "CREATURE_TYPE_LIMITER"
 				}]
 			},
 			"resurrects" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.summonCommander",
+				"subtype" : "summonCommander",
 				"val" : 0,
 				"limiters" : [
 				{
-					"parameters" : [ "plwalker", true ],
+					"creature" : "plwalker", 
+					"includeUpgrades" : true,
 					"type" : "CREATURE_TYPE_LIMITER"
 				}]
 			}

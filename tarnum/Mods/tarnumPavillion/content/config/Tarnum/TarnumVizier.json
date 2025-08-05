@@ -59,7 +59,8 @@
 			"attack" : {
 				"limiters" : [
 					{
-						"parameters" : [ "camelRider", false ],
+					"creature" : "camelRider", 
+					"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				],
@@ -74,7 +75,8 @@
 			"defence" : {
 				"limiters" : [
 					{
-						"parameters" : [ "camelRider", false ],
+					"creature" : "camelRider", 
+					"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				],
@@ -91,7 +93,8 @@
 				"val" : 1,
 				"limiters" : [
 					{
-						"parameters" : [ "camelRider", true ],
+					"creature" : "camelRider", 
+					"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
@@ -101,7 +104,8 @@
 				"val" : 3,
 				"limiters" : [
 					{
-						"parameters" : [ "camelRider", true ],
+					"creature" : "camelRider", 
+					"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]

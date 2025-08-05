@@ -26,7 +26,7 @@
 			"bonuses" : {
 				"castBlizz" : {
 					"val" : 1,
-					"subtype" : "spell.tBlizzard",
+					"subtype" : "tBlizzard",
 					"type" : "OPENING_BATTLE_SPELL"
 				}
 			}

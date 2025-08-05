@@ -62,7 +62,8 @@
 					"type" : "CASTS",
 					"limiters" : [
 						{
-							"parameters" : [ "hotaCouatl", true ],
+					"creature" : "hotaCouatl", 
+					"includeUpgrades" : true,							
 							"type" : "CREATURE_TYPE_LIMITER"
 						}
 					]
@@ -73,7 +74,8 @@
 					"addInfo" : 20,
 					"limiters" : [
 						{
-							"parameters" : [ "hotaDreadnought", true ],
+					"creature" : "hotaDreadnought", 
+					"includeUpgrades" : true,
 							"type" : "CREATURE_TYPE_LIMITER"
 						}
 					]
@@ -81,11 +83,12 @@
 				"reduceDefence" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.acidBreath",
+					"subtype" : "acidBreath",
 					"val" : 100,
 					"limiters" : [
 						{
-							"parameters" : [ "hotaDreadnought", true ],
+					"creature" : "hotaDreadnought", 
+					"includeUpgrades" : true,
 							"type" : "CREATURE_TYPE_LIMITER"
 						}
 					]

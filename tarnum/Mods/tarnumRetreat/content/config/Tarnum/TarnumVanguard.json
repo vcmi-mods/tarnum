@@ -60,7 +60,8 @@
 					"type" : "SHOOTS_ALL_ADJACENT",
 					"limiters" : [
 						{
-							"parameters" : [ "amSnakeBearer", true ],
+					"creature" : "amSnakeGrasper", 
+					"includeUpgrades" : true,
 							"type" : "CREATURE_TYPE_LIMITER"
 						}
 					]
@@ -69,7 +70,8 @@
 					"type" : "RANGED_RETALIATION",
 					"limiters" : [
 						{
-							"parameters" : [ "amSnakeGrasper", true ],
+					"creature" : "amSnakeGrasper", 
+					"includeUpgrades" : true,
 							"type" : "CREATURE_TYPE_LIMITER"
 						}
 					]
