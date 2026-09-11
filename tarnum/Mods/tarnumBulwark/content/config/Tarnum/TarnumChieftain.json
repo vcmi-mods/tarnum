@@ -1,0 +1,81 @@
+{
+	"tarnumChieftain" : {
+		"class" : "chieftain",
+		"female" : false,
+		"special" : false,
+
+		"texts" : {
+			"name" : "Tarnum",
+			"biography" : "Judged by the Ancestors as unworthy of entering Paradise, Tarnum wanders the land seeking redemption for the crimes of his past. He's the Immortal Hero, a timeless protector, but personally troubled by the doubt that he can ever make up for the tremendous wrongs he performed in his youth.",
+			"specialty" : {
+				"description" : "Jotuns and Jotunn Warlords receive +4 Attack, +2 Defense, and +1 Speed.",
+				"tooltip" : "Creature Bonus: Jotunns",
+				"name" : "Jotunns"
+			}
+		},
+
+		"images" : {
+			"specialtySmall" : "Tarnum/TarnumChieftain/spec-small.bmp",
+			"specialtyLarge" : "Tarnum/TarnumChieftain/spec-large.bmp",
+			"large" : "Tarnum/TarnumChieftain/portrait-large.bmp",
+			"small" : "Tarnum/TarnumChieftain/portrait-small.bmp"
+		},
+
+		"army" : [
+			{
+				"creature" : "kobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "snowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"creature" : "jotunn",
+						"includeUpgrades" : true,
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 4
+				},
+				"defence" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

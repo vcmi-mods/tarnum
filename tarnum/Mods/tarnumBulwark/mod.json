@@ -1,0 +1,20 @@
+{
+	"name" : "Tarnum is back to Bulwark",
+	"description" : "This mod adds Tarnum as a playable hero for Bulwark (Chieftain). In order to play, Bulwark town mod must be installed!",
+	"author" : "Kurek, avatar",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=798",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"hota.bulwark"
+	],
+
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"heroes" : [
+		"config/Tarnum/TarnumChieftain.json"
+	]
+}
